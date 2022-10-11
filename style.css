@@ -1,0 +1,137 @@
+.div-border {
+    border: 10px solid red;
+    border-radius: 10px;
+    box-shadow: 4px;
+    border-color: red;
+    text-align: center;
+    text-shadow: 2px 1px 1px purple;
+    box-shadow: 6px 6px 1px purple;
+    background-color: white;
+    color: rgb(110, 2, 2);
+
+}
+
+
+
+body {
+    background-color: rgb(102, 93, 93);
+}
+
+#div-head {
+    width: 400px;
+    margin-left: 550px;
+}
+
+
+#div-body1 {
+    border: 10px solid green;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+
+#div-add {
+    width: 250px;
+    margin-left: 5px;
+}
+
+#div-img {
+    align-items: center;
+    margin-left: 850px;
+    padding-top: 30px;
+
+}
+
+#div-2 {
+    width: 250px;
+    margin-left: 5px;
+    margin-top: 100px;
+    text-align: left;
+}
+
+#div-form {
+    width: 280px;
+    margin-top: 100px;
+    margin-left: 830px;
+}
+
+#submit {
+    border-radius: 15px;
+    background-color: brown;
+}
+
+#div-fix {
+    position: absolute;
+}
+
+#fixed-container {
+    background-color: greenyellow;
+    border: 8px solid red;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px purple;
+    color: rgb(101, 11, 11);
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 22px;
+    position: fixed;
+    bottom: 34px;
+    left: 480px;
+}
+
+#Offers-1 {
+    width: 30%;
+    display: inline;
+    font-size: 23px;
+    position: relative;
+    top: 21px;
+    text-align: center;
+}
+
+#Offers {
+    width: 60%;
+    display: inline;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+#store-container {
+    background-color: rgb(9, 98, 9);
+    border: 10px solid rgb(74, 1, 74);
+    margin: 65px 267px;
+    text-align: center;
+    font-size: 23px;
+    padding: 30px;
+    font-style: italic;
+}
+
+#flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.MyStore-container {
+    background-color: rgb(247, 247, 118);
+    width: 45%;
+    padding: 15px;
+    margin: 5px;
+}
+
+#order-container {
+    background-color: rgb(247, 247, 118);
+    width: 95%;
+    padding: 15px;
+    margin: 15px;
+    bottom: 1px;
+    padding-right: 7px;
+    right: 14px;
+}
+
+.inline-para {
+    display: inline;
+}
